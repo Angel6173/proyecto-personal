@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <title>Registrarse</title>
+</head>
+<body>
+  <header>
+    <h1>Crear Cuenta</h1>
+  </header>
+
+  <main>
+    <h2>Formulario de Registro</h2>
+    <form action="#" method="post">
+      <label for="nombre">Nombre completo:</label><br>
+      <input type="text" id="nombre" name="nombre" required><br><br>
+
+      <label for="correo">Correo electrónico:</label><br>
+      <input type="email" id="correo" name="correo" required><br><br>
+
+      <label for="usuario">Nombre de usuario:</label><br>
+      <input type="text" id="usuario" name="usuario" required minlength="4"><br><br>
+
+      <label for="clave">Contraseña:</label><br>
+      <input type="password" id="clave" name="clave" required minlength="6" maxlength="12"><br><br>
+
+      <label for="confirmar">Confirmar contraseña:</label><br>
+      <input type="password" id="confirmar" name="confirmar" required><br><br>
+
+      <input type="submit" value="Registrarse">
+      <input type="reset" value="Restablecer">
+    </form>
+  </main>
+
+  <footer>
+    <p><a href="index.html">Volver al inicio</a></p>
+  </footer>
+</body>
+</html>
